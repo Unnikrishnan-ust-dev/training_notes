@@ -1,0 +1,21 @@
+Swagger - easy implementation of postman
+http://localhost:8090/swagger-ui/index.html
+
+Exception handler in Spring
+	RestControllerAdvice - Annotation
+	ResponseEntityExceptionHandler - class to extend
+	errorHandler - Method to implement
+
+Actuators - add the dependency and enable the endpints
+
+Profiles - Dev Test and Production
+	application-dev.properties
+	application-test.properties
+	application-prod.properties
+	.\mvnw spring-boot:run -Dspring.profiles.active=dev
+
+
+MicroServices
+Api gateways are also called edge services.
+API gateways select which service to invoke.
+API gateways act as load balancer as ell.

@@ -1,0 +1,26 @@
+<bean name="countryEgg1" class="com.ust.products.Egg">
+	<constructor-arg name="id" value="101"></constructor-arg>
+	<constructor-arg name="description" value="heritage"></constructor-arg>
+	<constructor-arg name="qty" value="25"></constructor-arg>
+</bean>
+
+<bean name="countryEgg2" class="com.ust.products.Egg">
+	<constructor-arg name="id" value="101"></constructor-arg>
+	<constructor-arg name="description" value="heritage"></constructor-arg>
+	<constructor-arg name="qty" value="25"></constructor-arg>
+</bean>
+
+<bean name="countryEgg3" class="com.ust.products.Egg">
+	<constructor-arg name="id" value="101"></constructor-arg>
+	<constructor-arg name="description" value="heritage"></constructor-arg>
+	<constructor-arg name="qty" value="25"></constructor-arg>
+</bean>
+
+<bean name="eggList" class="java.util.ArrayLiat">
+<constructor-arg>
+<list>
+<ref name="countryEgg1">
+<ref name="countryEgg2"/>
+<ref name="countryEgg3"/>
+</list>
+</constructor-arg>

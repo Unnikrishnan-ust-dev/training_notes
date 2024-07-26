@@ -1,0 +1,5 @@
+mvn spring-boot:run - to run spring boot in terminal when maven is available in system
+
+Head first servlets and JSP
+
+.\mvnw spring-boot:run - when maven is not available in system.

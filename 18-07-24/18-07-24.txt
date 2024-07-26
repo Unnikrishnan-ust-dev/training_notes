@@ -1,0 +1,5 @@
+xml file in spring
+<bean name="countyEgg" class='com.ust.class">
+<constructor-arg name="" value=""></ constructor-arg >
+<idref/>
+</bean>

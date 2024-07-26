@@ -1,0 +1,23 @@
+by the end the of the session I have to host my own website
+Types of servers and their configurations
+how software is converted to an image
+spring one
+
+Limitations of monolith
+1. Difficult to integrate
+2. Scalability:
+	Scaling is of two types. Horizontal and vertical scaling.
+3. Not Easy to upgrade
+
+SOA services imaolsmmerd
+
+Interoperability
+
+There are two tyes of webservices.
+
+microservices
+monoliths
+
+SAP
+
+ERP
