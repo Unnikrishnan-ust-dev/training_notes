@@ -1,0 +1,11 @@
+@Import for importing configuration classes.
+@Configuration is for configuring Java classes.
+@ImportResources for importing any xml files.
+
+
+@PostMapping
+@GetMapping
+@PutMapping
+@DeleteMapping
+
+@PathVariable - to get search params(?name=value)
