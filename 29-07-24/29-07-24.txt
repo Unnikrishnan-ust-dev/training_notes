@@ -1,0 +1,21 @@
+1.Jenkins - pipeline - Script based - Groovy - and UI based
+	pushing source code to repo -> Run quality gates -> Testing (all types of testing all types of reports) -> packaging - > deploy/install -> release -> monitoring
+	
+2. Circuit Breaker - Resilience4J
+	The return type of endpoint method and fallback limit should be same.
+
+3. Docker
+	Docker Steps:
+		0. Create a folder
+		1. Create docker file with no extension. In a folder there should be only one docker file.
+		2. Define the libs/bins.
+		3. Build an image with docker file.
+		4. Run the image file to instantiate the container(runtime instance of an image which based on Dockerfile specification).
+		Command to run docker file:
+			docker build . - to build an image
+			docker images - to list all images
+			docker build -t myhello:v1 :- to build an image with name myhello and tag v1
+			docker ps -a :- list all running images
+			docker run -it ubuntu :- run ubuntu image interactively 
+			docker stop [container-id] :- stop a running container with specific id.
+			

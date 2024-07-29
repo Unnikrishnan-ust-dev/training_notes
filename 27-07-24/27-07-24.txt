@@ -1,0 +1,6 @@
+Todays Topics
+--------------
+
+1.Spring Security JDBC Authentication
+2. Spring security jwt Authentication
+3. Jenkins
