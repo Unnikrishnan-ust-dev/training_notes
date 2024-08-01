@@ -1,0 +1,4 @@
+1. Integrating Spring boot-->Maven-->Git-->Jenkins-->Docker-->Kubernetes
+2. Pub-Sub Messaging service with RabbitMQ
+3. AWS IAM
+4. AWS EC2 instance.
