@@ -1,0 +1,8 @@
+service provider profile page
+	:Create is working update is not working
+	 when updating it is creating
+orders page for user
+orders page for service provider
+My services page
+
+http://localhost:4200/?razorpay_payment_id=pay_OtbWflozUa1aTf&razorpay_payment_link_id=plink_OtbVuPs1DmQDK9&razorpay_payment_link_reference_id=TSsd1983&razorpay_payment_link_status=paid&razorpay_signature=7574ab1f06da6127291cada51559268d35d3b7a41829d9e85db373ff7dd8bd00

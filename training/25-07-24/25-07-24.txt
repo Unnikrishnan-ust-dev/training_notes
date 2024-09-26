@@ -1,0 +1,22 @@
+1.Cloud gateway              ports: Registry:8761, HelloService: 8071, Helloclient:8072, Gateway: 8070
+2.Cloud Config
+3.OpenFiegn
+4.Circuit breakers
+
+
+12factor.net for 12 factors to need our application to be cloud ready
+
+OpenFiegn
+-------------
+@EnableFeignClients
+@FeignClient(value="feignclient", url="http://localhost:7891/product-service")
+
+Cloud Config
+-------------
+@EnableConfigServer
+@Value("${server.port.key}")
+
+Cloud gateway
+-------------------
+@EnableEurekaServer
+@EnableDiscoveryClient

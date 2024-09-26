@@ -1,0 +1,15 @@
+1. SRS
+2. Functional
+3. Non Functional
+4. Tech Stack
+5. Scope
+6. High level design (use case diagrams)
+7. Low level design
+	Detailed component specifications
+	Interface definitions
+	Resource allocation
+	error handling and recovery
+	security
+	code structure
+8. ER diagrams
+9. Class Diagrams

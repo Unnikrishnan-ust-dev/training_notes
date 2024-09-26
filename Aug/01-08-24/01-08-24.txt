@@ -1,0 +1,32 @@
+1. Regions and data centeres
+2. IAM
+	User Groups
+	Users
+	Roles
+	Policies
+3. RDS - MySQL
+	to install mysql in ec2 use "sudo apt-get install mysql-server"
+	to connect to mysql rds from linux ec2 use "mysql -h endpoint -P 3306 -u admin -p"
+	
+4. S3 - buckets and objects
+	how to create buckets
+	upload fies
+	giving public access to files
+	ACL script difference between S3 and RDS
+5. EC2
+	Regions
+	compute services
+	creating instances
+	security groups
+	keypair
+	inbound ports
+	SSH
+	putty on windows
+	VPC
+	subnets
+	connecting through RDS
+	start,stop,terminate ec2
+	
+6. Elastic Bean Stalk
+	Create two roles in IAM (EC2 and Elastic Bean Stalk)
+	

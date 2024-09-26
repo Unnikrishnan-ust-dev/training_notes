@@ -1,0 +1,4 @@
+npm install -g typescript
+npm list -g
+tsc -v
+tsc sandbox.ts -w (for watch mode)

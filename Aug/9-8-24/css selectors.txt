@@ -1,0 +1,155 @@
+CSS selectors are used to target HTML elements for styling. Here’s a comprehensive list of common CSS selectors along with examples:
+
+### 1. **Universal Selector**
+```css
+* {
+    color: blue;
+}
+```
+**Explanation:** Selects all elements.
+
+### 2. **Type Selector**
+```css
+p {
+    font-size: 16px;
+}
+```
+**Explanation:** Selects all `<p>` elements.
+
+### 3. **Class Selector**
+```css
+.button {
+    background-color: green;
+}
+```
+**Explanation:** Selects all elements with the class `button`.
+
+### 4. **ID Selector**
+```css
+#header {
+    text-align: center;
+}
+```
+**Explanation:** Selects the element with the ID `header`.
+
+### 5. **Attribute Selector**
+```css
+input[type="text"] {
+    border: 1px solid black;
+}
+```
+**Explanation:** Selects all `<input>` elements with a `type` attribute equal to "text".
+
+### 6. **Descendant Selector**
+```css
+div p {
+    color: red;
+}
+```
+**Explanation:** Selects all `<p>` elements that are descendants of a `<div>`.
+
+### 7. **Child Selector**
+```css
+ul > li {
+    list-style-type: none;
+}
+```
+**Explanation:** Selects all `<li>` elements that are direct children of a `<ul>`.
+
+### 8. **Adjacent Sibling Selector**
+```css
+h1 + p {
+    margin-top: 0;
+}
+```
+**Explanation:** Selects the first `<p>` element that immediately follows an `<h1>` element.
+
+### 9. **General Sibling Selector**
+```css
+h1 ~ p {
+    color: gray;
+}
+```
+**Explanation:** Selects all `<p>` elements that are siblings of an `<h1>` element.
+
+### 10. **Group Selector**
+```css
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+```
+**Explanation:** Selects all `<h1>`, `<h2>`, and `<h3>` elements.
+
+### 11. **Pseudo-class Selector**
+```css
+a:hover {
+    color: red;
+}
+```
+**Explanation:** Selects `<a>` elements when they are hovered over.
+
+### 12. **Pseudo-element Selector**
+```css
+p::first-line {
+    font-weight: bold;
+}
+```
+**Explanation:** Selects the first line of all `<p>` elements.
+
+### 13. **Attribute Selector with Specific Value**
+```css
+input[placeholder="Search"] {
+    background-color: lightgray;
+}
+```
+**Explanation:** Selects all `<input>` elements with a `placeholder` attribute equal to "Search".
+
+### 14. **Attribute Selector with Partial Value**
+```css
+a[href^="https"] {
+    color: green;
+}
+```
+**Explanation:** Selects all `<a>` elements with an `href` attribute that starts with "https".
+
+### 15. **Negation Pseudo-class Selector**
+```css
+:not(.highlight) {
+    background-color: lightyellow;
+}
+```
+**Explanation:** Selects all elements that do not have the class `highlight`.
+
+### 16. **nth-child Selector**
+```css
+li:nth-child(2) {
+    background-color: lightblue;
+}
+```
+**Explanation:** Selects the second `<li>` element within its parent.
+
+### 17. **nth-of-type Selector**
+```css
+p:nth-of-type(2) {
+    font-style: italic;
+}
+```
+**Explanation:** Selects the second `<p>` element of its parent, regardless of other element types.
+
+### 18. **First-of-type Selector**
+```css
+div:first-of-type {
+    border: 2px solid black;
+}
+```
+**Explanation:** Selects the first `<div>` of its type within its parent.
+
+### 19. **Last-of-type Selector**
+```css
+div:last-of-type {
+    border: 2px solid red;
+}
+```
+**Explanation:** Selects the last `<div>` of its type within its parent.
+
+These selectors can be combined and nested to create more complex and specific CSS rules.

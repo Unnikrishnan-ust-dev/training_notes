@@ -1,0 +1,18 @@
+@SpringBootApplication
+@RestController
+@RequestMapping
+@GetMapping
+@PostMapping
+@PutMapping
+@DeleteMapping
+@Autowired
+@PreAuthorize(value = "hasRole('ADMIN')")
+@PathVariable
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Configuration
+@EnableMethodSecurity
+@Bean
+@Service
+@Component

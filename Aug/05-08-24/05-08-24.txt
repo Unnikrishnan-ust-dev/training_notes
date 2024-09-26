@@ -1,0 +1,48 @@
+Intorduction
+-------------------
+Java How to Program
+50 algorithms
+Hackerrank
+
+Product purchase
+--------------------
+Select the payment processor
+Payment intend will be created
+block the quantity
+Pay the money
+Reduce the quantity
+start the shipping
+
+RabbitMq
+----------
+Publisher pushes messages to queue's and consumer consumes them from the queue.
+5672 is the port of rabbitmq to use in spring boot.
+guest is the username and password.
+
+Loosely Coupled
+---------------
+These are systems with less dependency on other modules
+Messaging systems help build loosely coupled systems
+
+Serialization
+----------------
+Marker Interface - an interface which has no methods
+to serialize an object first implement Serializable interface.
+Then save the object to a file using FileOutputStream and ObjectOutputStream.
+Load them using FileInputStream and ObjectInputStream.
+If we use transient modiefier for a variable its state will not be stored in serialization it will be assigned with default value.
+marshalling and unmarshalling also means serialization and deserialization.
+
+Message Brokers
+------------------
+It implements asynchronous communication
+Decouples sender and reciever systems
+
+Kafka
+------------
+
+Amazon Lambda
+---------------
+
+Amazon SNS
+---------------

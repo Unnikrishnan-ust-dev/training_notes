@@ -1,0 +1,59 @@
+Important Building Blocks of Angular
+	1. Component
+		1. Selector
+		2. Html File
+		3. CSS File
+		4. A Class
+		5. Test File
+	2. View
+	3. Template
+	4. Bindings
+		1. Interpolation
+		2. Event
+		3. Property
+		4. Two way binding
+	5. Directives
+		1. *ngIf
+		2. *ngFor
+		3. *ngSwitchCase
+	6. Services
+	7. Http
+	8. Module
+	9. Decorators
+	
+Todays Topics
+----------------------
+1. Switch Case
+	<div [ngSwitch]="inputQty.value">
+      <span *ngSwitchCase="'200'">Quantity not Available</span>
+      <span *ngSwitchCase="'100'">Quantity Available</span>
+      <span *ngSwitchDefault>Checking Stock Quantity</span>
+    </div>
+	
+	import { NgSwitch,NgSwitchCase,NgSwitchDefault } from '@angular/common';
+	
+	@Component({
+		selector: 'root',
+		standalone: true,
+		imports: [NgSwitch,NgSwitchCase,NgSwitchDefault ],
+		templateUrl: './app.component.html',
+		styleUrl: './app.component.css'
+	})
+	
+	
+2. Property Binding Inner Html
+	[innerHTML]
+3. ngClass
+4. how to use angular identifier to pass value of a input element to an event handler
+	use #name in an input element. name can be anything. Then we can refer to that input element using the name.
+	pass that name to an event handler. Then access the value using using name.value in event handler function.
+5. User Defined component and integrate with app-root
+	`ng g c color`: it will create a component called color
+	@Output() - child --> parent
+	@input() - parent --> child
+6. Define model classes
+	create them manually
+7. Define service classes
+	ng g s Data
+8. How to inject service classes
+
